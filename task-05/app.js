@@ -5,7 +5,7 @@ const http = require('http');
 const router = require('./router/countryRouter');
 
 // 2. Definiáld a port értékét 8080 -ra a port változóban.
-const port = 8081;
+const port = 8080;
 
 /**
  * 3. Hozz létre egy http szervert.

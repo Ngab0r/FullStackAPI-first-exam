@@ -8,7 +8,7 @@ const { getAll } = require('./jsonDB');
 
 
 // 2. Definiáld a port értékét 8080 -ra a port változóban.
-const port = 8081;
+const port = 8080;
 
 
 /**
@@ -28,5 +28,5 @@ const server = http.createServer(async (req, res) => {
  * 4. Állítsd be, hogy a szerver figyelje a port változóban definiált portot.
  */
 server.listen(port, () => {
-    console.log(`Server running on http://localhost:${port}/`);
+    console.log(`Server running - http://localhost:${port}/`);
 });
